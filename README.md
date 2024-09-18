@@ -3,4 +3,4 @@
 
 ## Exercice 1
 
-
+1. Dans le pire des cas lorsque le tableau est trié dans l'ordre , l'algorithme calcule en 
