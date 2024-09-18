@@ -37,8 +37,8 @@ public class QuickSort {
             }
             i = i + (pivot - i) / Math.abs(i - pivot);
         }
-        //System.out.println("liste : " + list);
-        //System.out.println("pivot : " + list.get(pivot));
+        System.out.println("liste : " + list);
+        System.out.println("pivot : " + list.get(pivot));
 
         if (pivot-1 > beginIndex) {
             quickSortB(list, beginIndex, pivot-1);
