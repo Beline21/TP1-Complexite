@@ -10,9 +10,9 @@ public class Main {
         list.add(4);
         list.add(2);
         list.add(2);
-        System.out.println(list);
+        //System.out.println(list);
         //System.out.println(QuickSort.quickSort(list, 0, list.size()-1, "Beginning"));
-        System.out.println(QuickSort.quickSort(list, "Median"));
+        //System.out.println(QuickSort.quickSort(list, "Median"));
 
         // Tableaux dans le pire des cas
         for (int j = 1; j < 10; j++) {
@@ -20,8 +20,8 @@ public class Main {
             for (int i = j; i >= 0; i--) {
                 list2.add(i);
             }
-            //System.out.println(list2);
-            //System.out.println(QuickSort.quickSort(list2, 0, list2.size()-1, "Beginning"));
+            System.out.println(list2);
+            System.out.println(QuickSort.quickSort(list2, "Beginning"));
         }
     }
 }
