@@ -81,6 +81,7 @@ public class QuickSort {
         }
         //System.out.println("liste : " + list);
         //System.out.println("pivot : " + list.get(pivot));
+        //test de push
 
         if (pivot-1 > beginIndex) {
             quickSortB(list, beginIndex, pivot-1);
